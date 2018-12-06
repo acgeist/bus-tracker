@@ -63,7 +63,7 @@ def map_buses(buses):
         map_url += bus.find('lat').text + ',' + bus.find('lon').text 
     map_url += '&markers=color:red%7Clabel:D%7C' 
     map_url += str(do_lat) + ',' + str(do_long)
-    map_url += '&key= AIzaSyCxMSoGuLFn5HOwruE6ZtOntyhB7tO1Lt8'
+    map_url += '&key='
     webbrowser.open(map_url)
 
 # do = Dan's Office
